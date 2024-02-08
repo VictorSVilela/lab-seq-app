@@ -16,7 +16,10 @@ Nodejs 20.11.0
 ## How To Run
 
 For backend run:
+```console
 $ mvn spring-boot:run
-
+```
 For frontend run:
+```console
 $ ng serve
+```
