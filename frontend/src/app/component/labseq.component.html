@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row justify-content-center align-items-center vh-100">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>{{ challengeTitle }}</h2>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+                <input type="number" class="form-control" id="n" [(ngModel)]="n">
+              </div>            
+              <button class="btn btn-primary mt-2" (click)="getLabSeq()">Submit</button>
+          </div>
+          <div class="card-footer">
+            <div class="mt-3">
+                <h4>Result:</h4>
+                <p>{{ result }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
